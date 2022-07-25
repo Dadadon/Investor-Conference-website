@@ -71,8 +71,8 @@ programCards.forEach((el, i) => {
 });
 
 featuredCards.forEach((el, i) => {
-    const template = document.createElement("template");
-    template.innerHTML = `<li class="card justify-content-center p-3">
+  const template = document.createElement("template");
+  template.innerHTML = `<li class="card justify-content-center p-3">
         <div class="row">
           <div class="col-4"><img class="img-fluid rounded-start" src="${el.image}" alt=""></div>
           <div class="col-8">
@@ -83,8 +83,7 @@ featuredCards.forEach((el, i) => {
           </div>
         </div>
       </li>`;
-    
-    const pro = template.content.lastElementChild;
-    grab("feat-cards").appendChild(pro);
 
+  const pro = template.content.lastElementChild;
+  grab("feat-cards").appendChild(pro);
 });
