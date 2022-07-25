@@ -1,0 +1,24 @@
+:root {
+  --primaryColor: #272a31;
+  --secondaryColor: #ec5242;
+  --tertiaryColor: #d3d3d3;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+    color: var(--primaryColor);
+}
+
+h1 {
+    font-family: 'COCOGOOSE', sans-serif;
+    color: var(--secondaryColor);
+    font-size:  40px;;
+}
+
+h3 { 
+    color: var(--secondaryColor);
+}
+
+h2 {
+    font-family: 'COCOGOOSE', sans-serif;
+}
