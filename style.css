@@ -33,7 +33,7 @@ h6 {
 }
 
 .secondary {
-    color: var(--secondaryColor);
+  color: var(--secondaryColor);
 }
 
 .program-container {
@@ -79,21 +79,21 @@ h6 {
 }
 
 .featured-header {
-    color: var(--primaryColor);
-    font-weight: 700;
+  color: var(--primaryColor);
+  font-weight: 700;
 }
 
 .f-speaker {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .f-title {
-    color: var(--secondaryColor);
-    font-weight: 400;
-    font-style: italic;
+  color: var(--secondaryColor);
+  font-weight: 400;
+  font-style: italic;
 }
 
 .feat-button {
-    width: 90%;
-    font-weight: bold;
+  width: 90%;
+  font-weight: bold;
 }
