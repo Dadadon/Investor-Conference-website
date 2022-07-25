@@ -32,6 +32,10 @@ h6 {
   color: var(--secondaryColor);
 }
 
+.secondary {
+    color: var(--secondaryColor);
+}
+
 .program-container {
   background-color: var(--primaryColor);
   justify-content: center;
@@ -72,4 +76,24 @@ h6 {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.featured-header {
+    color: var(--primaryColor);
+    font-weight: 700;
+}
+
+.f-speaker {
+    font-weight: 900;
+}
+
+.f-title {
+    color: var(--secondaryColor);
+    font-weight: 400;
+    font-style: italic;
+}
+
+.feat-button {
+    width: 90%;
+    font-weight: bold;
 }
