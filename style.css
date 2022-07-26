@@ -48,6 +48,14 @@ h6 {
   padding-bottom: 2rem;
 }
 
+.partner-container {
+  background-color: var(--primaryColor);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .program-header {
   color: white;
 }
