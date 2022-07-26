@@ -6,11 +6,13 @@
 
 body {
   height: auto;
+  width: 100%;
 }
 
 * {
   font-family: "Lato", sans-serif;
   color: var(--primaryColor);
+  width: 100%;
 }
 
 h1 {
@@ -96,4 +98,8 @@ h6 {
 .feat-button {
   width: 90%;
   font-weight: bold;
+}
+
+.timeline-container {
+  width: 100%;
 }

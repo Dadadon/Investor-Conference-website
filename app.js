@@ -58,6 +58,7 @@ const featuredCards = [
   },
 ];
 
+
 programCards.forEach((el, i) => {
   const template = document.createElement("template");
   template.innerHTML = `<li class='card justify-content-center p-3 mt-2'>
@@ -87,3 +88,4 @@ featuredCards.forEach((el, i) => {
   const pro = template.content.lastElementChild;
   grab("feat-cards").appendChild(pro);
 });
+
