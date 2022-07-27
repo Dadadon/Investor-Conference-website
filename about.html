@@ -21,14 +21,30 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar py-4 navbar-background">
-    <nav class="navbar navbar-light">
-      <button class="navbar-toggler col-2" type="button" data-toggle="collapse" data-target="#"
-        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <header>
+    <div id="myNav" class="overlay mobile-only">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#ai-logo" onclick="closeNav()">Angel Investor Logo</a>
+        <a href="#time-cards" onclick="closeNav()">Timeline</a>
+        <a href="#partner" onclick="closeNav()">Partner</a>
+        <a href="index.html" onclick="closeNav()">Home</a>
+      </div>
+    </div>
+    <nav class="nav-container navbar-background" id="nav-icon">
+      <nav class="navbar navbar-light">
+        <button class="navbar-toggler col-2" onclick="openNav()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <nav class="menu-items">
+      <a href="#ai-logo" onclick="closeNav()">Angel Investor Logo</a>
+      <a href="#time-cards" onclick="closeNav()">Timeline</a>
+      <a href="#partner" onclick="closeNav()">Partner</a>
+      <a href="index.html" onclick="closeNav()">Home</a>
+      </nav>
     </nav>
-  </nav>
+  </header>
   <!-- Header -->
   <section class="header-container p-2">
     <h3 class="text-center">"Hello! Entrepreneurs"</h4>
@@ -41,17 +57,17 @@
       <p class="text-decoration-underline text-center fw-bold">aisummit2022@aiinvestor,com</a>
   </section>
   <!-- logo section -->
-  <section class="logo-container bg-white p-5" >
+  <section class="logo-container bg-white p-5" id="ai-logo" >
     <h3 class="featured-header text-center">Angel Investor Business Summit 2022 Logo</h3>
     <p class="divider text-center">_________</p>
-    <p class="mb-5">The logo of Angel Investor Business Summit 2022 was decided through the logo competition that was held on May 5th
+    <p class="mb-5 text-center">The logo of Angel Investor Business Summit 2022 was decided through the logo competition that was held on May 5th
     </p>
     <img class="col w-75 h-75 mx-auto d-block card" src="src/ailogo.png" alt="">
   </section>
   <!-- Timeline -->
   <section class="timeline-container bg-white pb-5">
     <h3 class="featured-header text-center">See the past AI Business Summits</h3>
-    <p class="text-center">Take a look at the last two summits that took place in Barbados and Trinidad and Tobago</p>
+    <p class="text-center ps-5 pe-5">Take a look at the last two summits that took place in Barbados and Trinidad and Tobago</p>
     <div class="container d-grid bg-image p-0 gap-3" id="time-cards" style="width: 90%;">
       <div class="timeline-card w-100">
         <div class="card-body justify-content-center align-content-center">
@@ -68,7 +84,7 @@
     </div>
   </section>
   <!-- Partner -->
-  <section class="partner-container pt-3 ps-5 pe-5 pb-5">
+  <section class="partner-container pt-3 ps-5 pe-5 pb-5" id="partner">
     <h3 class="text-center secondary">Partner</h3>
     <p class="divider text-center text-white">_________</p>
     <div class="p-logo-container d-flex flex-wrap justify-content-evenly gap-5">
@@ -87,6 +103,7 @@
       <p class="mb-0"><small>Some Rights Reserved</small></p>
     </div>
   </section>
+  <script src="app.js"></script>
 </body>
 
 </html>
