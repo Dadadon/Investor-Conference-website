@@ -58,8 +58,7 @@ const featuredCards = [
   },
 ];
 
-
-programCards.forEach((el, i) => {
+programCards.forEach((el) => {
   const template = document.createElement('template');
   template.innerHTML = `<li class='justify-content-center p-3 mt-2 program-card'>
           <div class='row'>
@@ -71,7 +70,7 @@ programCards.forEach((el, i) => {
   grab('pro-cards').appendChild(pro);
 });
 
-featuredCards.forEach((el, i) => {
+featuredCards.forEach((el) => {
   const template = document.createElement('template');
   template.innerHTML = `<li class='justify-content-center p-3 h-100'>
         <div class='row'>
@@ -101,4 +100,3 @@ function closeNav() {
 
 openNav();
 closeNav();
-
