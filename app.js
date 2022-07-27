@@ -61,11 +61,11 @@ const featuredCards = [
 
 programCards.forEach((el, i) => {
   const template = document.createElement("template");
-  template.innerHTML = `<li class='card justify-content-center p-3 mt-2'>
+  template.innerHTML = `<li class='justify-content-center p-3 mt-2 program-card'>
           <div class='row'>
-            <div class='col-2'><i class='${el.icon}'></i></div>
-            <div class='col-3'><h6 class='card-title align-middle'>${el.title}</h6></div>
-            <div class='col-7'>${el.description}</div>
+            <div class='col-2'><i class='${el.icon} text-white'></i></div>
+            <div class='col-4'><h6 class='card-title align-middle'>${el.title}</h6></div>
+            <div class='col-6 text-white'>${el.description}</div>
           </li>`;
   const pro = template.content.lastElementChild;
   grab("pro-cards").appendChild(pro);
@@ -73,9 +73,9 @@ programCards.forEach((el, i) => {
 
 featuredCards.forEach((el, i) => {
   const template = document.createElement("template");
-  template.innerHTML = `<li class="card justify-content-center p-3">
+  template.innerHTML = `<li class="justify-content-center p-3 h-100">
         <div class="row">
-          <div class="col-4"><img class="img-fluid rounded-start" src="${el.image}" alt=""></div>
+          <div class="col-4"><img class="img-fluid rounded-circle h-75 w-100" src="${el.image}" alt=""></div>
           <div class="col-8">
             <h4 class="f-speaker">${el.name}</h4>
             <p class="f-title mb-0">${el.title}</p>

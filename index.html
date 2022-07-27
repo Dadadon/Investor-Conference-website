@@ -21,16 +21,16 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar mb-5">
+  <nav class="navbar py-4 navbar-background">
     <nav class="navbar navbar-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#"
+      <button class="navbar-toggler col-2" type="button" data-toggle="collapse" data-target="#"
         aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     </nav>
   </nav>
   <!-- Header -->
-  <section class="header-container">
+  <section class="header-container header-background p-3 w-100">
     <h3>"Hello! Entrepreneurs"</h4>
       <h1>Angel Investor Business Summit 2022</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, iure officiis? Eveniet eos nulla, unde
@@ -41,18 +41,18 @@
   </section>
   <!-- Main program -->
   <section class="program-container">
-    <h3 class="program-header">Main Program</h3>
-    <p class="divider">_________</p>
-    <ul class="container d-grid" id="pro-cards"></ul>
+    <h3 class="program-header text-center">Main Program</h3>
+    <p class="divider text-center">_________</p>
+    <ul class="container d-grid gap-1" id="pro-cards"></ul>
     <button class="btn pro-button p-3 ps-5 pe-5" type="submit">Join Our Investor Summit</button>
   </section>
   <!-- Featured speakers section -->
-  <section class="featured-container mb-5">
-    <h3 class="featured-header">Featured Speakers</h3>
-    <p class="divider">_________</p>
-    <ul class="container d-grid" id="feat-cards"></ul>
-    <button class="btn feat-button btn-outline-secondary">MORE <span><i
-          class="fas fa-angle-down secondary"></i></span></button>
+  <section class="featured-container bg-white">
+    <h3 class="featured-header text-center mt-5">Featured Speakers</h3>
+    <p class="divider text-center">_________</p>
+    <ul class="container d-grid gap-5" id="feat-cards"></ul>
+    <button class="btn feat-button btn-outline-secondary d-flex justify-content-center gap-2"><span
+        class="text-end">MORE</span><i class="align-self-center text-start fas fa-angle-down secondary"></i></button>
   </section>
   <script src="app.js"></script>
 </body>
