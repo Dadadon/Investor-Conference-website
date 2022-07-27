@@ -40,7 +40,7 @@ h6 {
 }
 
 .navbar-toggler {
-    border:0px;
+  border: 0px;
 }
 
 .program-container {
@@ -145,10 +145,7 @@ ul {
 
 .timeline-card {
   /* background-image: url(src/pexels-matheus-bertelli-3321796.jpg); */
-  background-image: linear-gradient(
-    #ec5242,
-    #ec5242
-  );
+  background-image: linear-gradient(#ec5242, #ec5242);
   background-blend-mode: overlay;
 }
 
