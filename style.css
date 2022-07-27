@@ -1,0 +1,199 @@
+:root {
+  --primaryColor: #272a31;
+  --secondaryColor: #ec5242;
+  --tertiaryColor: #d3d3d3;
+}
+
+body {
+  height: auto;
+  width: 100%;
+  background-image: url(src/pexels-henry-&-co-1939485.jpg);
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  color: var(--primaryColor);
+  width: 100%;
+}
+
+h1 {
+  font-family: "COCOGOOSE", sans-serif;
+  color: var(--secondaryColor);
+  font-size: 40px;
+}
+
+h3 {
+  color: var(--secondaryColor);
+}
+
+h2 {
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+h6 {
+  font-family: "COCOGOOSE", sans-serif;
+  color: var(--secondaryColor);
+}
+
+.secondary {
+  color: var(--secondaryColor);
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.program-container {
+  background-color: var(--primaryColor);
+  background-image: url(src/—Pngtree—decorative\ pattern\ pattern\ creative\ creative_3928090.png);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.partner-container {
+  background-color: var(--primaryColor);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.program-header {
+  color: white;
+}
+
+/* Solid border */
+.divider {
+  color: var(--secondaryColor);
+}
+
+.program-card {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  background-blend-mode: overlay;
+}
+
+.p-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.pro-button {
+  background-color: var(--secondaryColor);
+  color: white;
+  font-size: 20px;
+  width: 60%;
+}
+
+.featured-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-header {
+  color: var(--primaryColor);
+  font-weight: 700;
+}
+
+.f-speaker {
+  font-weight: 900;
+}
+
+.f-title {
+  color: var(--secondaryColor);
+  font-weight: 400;
+  font-style: italic;
+}
+
+.feat-button {
+  width: 90%;
+  font-weight: bold;
+}
+
+.timeline-container {
+  width: 100%;
+}
+
+.navbar-background {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background-blend-mode: overlay;
+  z-index: 0;
+}
+
+.header-container {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background-blend-mode: overlay;
+}
+
+ul {
+  list-style: none;
+}
+
+.timeline-card {
+  /* background-image: url(src/pexels-matheus-bertelli-3321796.jpg); */
+  background-image: linear-gradient(#ec5242, #ec5242);
+  background-blend-mode: overlay;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  background-color: rgba(236, 82, 66, 0.6);
+  overflow-x: hidden;
+  transition: 0.5s;
+  backdrop-filter: blur(8px);
+}
+
+.overlay-content {
+  position: relative;
+  top: 2rem;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+  padding: 1rem;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.menu-items {
+  display: none;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  /* position: absolute; */
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  z-index: 1;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
