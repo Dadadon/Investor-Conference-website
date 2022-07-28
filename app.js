@@ -161,12 +161,20 @@ function renderDesktopCards() {
 }
 
 function renderAllCards(fcards) {
-  grab("feat-cards").innerHTML = "";
+  grab('feat-cards').innerHTML = '';
   fcards.forEach(renderOneCard);
-  document.getElementById("f-btn").innerHTML = `<span
+  document.getElementById('f-btn').innerHTML = `<span
         class='text-end'>See Less</span><i class='align-self-center text-start fas fa-angle-up secondary'></i>`;
-  document.getElementById("f-btn").addEventListener("click", () => {
-    initialRender(featuredCards);
+  document.getElementById('f-btn').addEventListener('click', () => {
+    grab('feat-cards').innerHTML = '';
+    renderDesktopCards();
+    const slicedArray = fcards.slice(0, 2);
+    slicedArray.forEach(renderOneCard);
+    document.getElementById('f-btn').innerHTML = `<span
+        class='text-end'>See More</span><i class='align-self-center text-start fas fa-angle-down secondary'></i>`;
+    document.getElementById('f-btn').addEventListener('click', () => {
+      renderAllCards(featuredCards);
+    });
   });
 }
 
@@ -184,6 +192,3 @@ function initialRender(fcards) {
 }
 
 initialRender(featuredCards);
-
-
-
