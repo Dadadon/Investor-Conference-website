@@ -84,10 +84,7 @@ h6 {
 }
 
 .program-card {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.1)
-  );
+  background-image: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
   background-blend-mode: overlay;
 }
 
@@ -152,19 +149,13 @@ h6 {
 }
 
 .navbar-background {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.5)
-  );
+  background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
   background-blend-mode: overlay;
   z-index: 0;
 }
 
 .header-container {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.5)
-  );
+  background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
   background-blend-mode: overlay;
 }
 
@@ -249,14 +240,6 @@ ul {
 }
 
 @media (min-width: 991px) {
-  .desktop-only {
-    display: none;
-  }
-
-  .menu-items {
-    display: block;
-  }
-
   .logo {
     width: 100px;
     height: 100px;
