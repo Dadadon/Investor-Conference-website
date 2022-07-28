@@ -43,6 +43,11 @@ h6 {
   color: var(--secondaryColor);
 }
 
+.mobile-card {
+  display: grid;
+  place-items: center;
+}
+
 .secondary {
   color: var(--secondaryColor);
 }
@@ -151,7 +156,8 @@ h6 {
 .navbar-background {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
   background-blend-mode: overlay;
-  z-index: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header-container {
@@ -165,8 +171,10 @@ ul {
 
 .timeline-card {
   /* background-image: url(src/pexels-matheus-bertelli-3321796.jpg); */
-  background-image: linear-gradient(#ec5242, #ec5242);
-  background-blend-mode: overlay;
+  background-image: url("src/pexels-matheus-bertelli-3321796.jpg"), linear-gradient(#ec5242, #ec5242);
+    background-blend-mode: overlay;
+  /* background-image: linear-gradient(#ec5242, #ec5242); */
+  /* background-blend-mode: overlay; */
 }
 
 .overlay {
@@ -322,6 +330,16 @@ ul {
     background-color: #ec5242;
     color: white;
     border: #ec5242;
+  }
+
+  .header-container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+
+  .mobile-card {
+    display: flex;
   }
 }
 

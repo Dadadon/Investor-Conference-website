@@ -22,6 +22,13 @@
 <body>
   <!-- Navbar -->
   <header>
+    <!-- <div class="d-flex bg-dark justify-content-end  px-sm-2 px-lg-4 align-items-center gap-2 col-12 up">
+      <img src="./img/icons/facebook.png" class="up-img" alt="facebook icon">
+      <img src="./img/icons/twitter.png" class="up-img" alt="twitter icon">
+      <p class="text-white fs-smaller my-auto">English</p>
+      <p class="text-white fs-smaller my-auto">My Page</p>
+      <p class="text-white fs-smaller my-auto">Logout</p>
+    </div> -->
     <div id="myNav" class="overlay mobile-only">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
@@ -31,12 +38,24 @@
         <a href="index.html" onclick="closeNav()">Home</a>
       </div>
     </div>
+    <div class="w-100 bg-dark ps-5 gap-1 flex-nowrap justify-content-end menu-items mt-0 pe-5 pb-1 pt-1">
+      <div class="d-flex w-50 ps-5 ms-5">
+        <i class="fab fa-facebook-f text-white"></i>
+        <i class="fab fa-twitter text-white"></i>
+        <a class="text-white" href="#"> English</a>
+        <a class="text-white" href="#">My Page</a>
+        <a class="text-white" href="#">Logout</a>
+      </div>
+
+    </div>
+
     <nav class="nav-container navbar-background p-0" id="nav-icon">
       <nav class="navbar navbar-light mobile-only">
         <button class="navbar-toggler col-2" onclick="openNav()">
           <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
+
       <div class="w-100 d-nav align-items-center">
         <img class=" col-3 mx-auto logo menu-items align-self-center pb-2" src="src/ailogo.png" alt="">
         <nav class="menu-items col-8 align-content-center m-0 h-100 me-5">
@@ -51,15 +70,21 @@
 
     </nav>
   </header>
-  <!-- Header -->
   <section class="header-container p-2 p-md-5">
-    <h3 class="text-center">"Hello! Entrepreneurs"</h3>
-    <h1 class="text-center pb-3">Angel Investor Business Summit 2022</h1>
-    <p class="text-center bg-white card p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore quas
+    <h3 class="text-center mobile-only">"Hello! Entrepreneurs"</h3>
+    <h1 class="text-center pb-3 mobile-only">Angel Investor Business Summit 2022</h1>
+    <h1 class="text-center pb-3 desktop-only w-50 ">Angel Investor Business Summit 2022</h1>
+    <p class="text-center bg-white card p-3 mobile-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+      dolore quas
       temporibus! Maiores tempora
       ullam aperiam cupiditate excepturi eligendi ducimus iusto? Qui aliquam illum velit veritatis est eos
       corporis nisi.
     </p>
+    <p class="text-center bg-white card p-3 desktop-only w-75 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Beatae ad quis, recusandae perspiciatis suscipit debitis quisquam aliquid doloribus cupiditate reiciendis
+      explicabo possimus exercitationem. Ratione nostrum alias incidunt recusandae. Aspernatur, dolor. Lorem ipsum dolor
+      sit, amet consectetur adipisicing elit. Itaque praesentium quisquam cumque autem! Architecto, modi. Dolore culpa
+      accusamus recusandae rerum, officiis error aliquid adipisci? Ratione laboriosam quasi iusto nisi tenetur?</p>
     <p class="text-center mb-0 ps-4 pe-4"><small>Please contact us via Email for any further questions about AI Business
         Summit 2022</small></p>
     <p class="text-decoration-underline text-center fw-bold">aisummit2022@aiinvestor,com</p>
@@ -78,14 +103,14 @@
     <h3 class="featured-header text-center">See the past AI Business Summits</h3>
     <p class="text-center ps-5 pe-5">Take a look at the last two summits that took place in Barbados and Trinidad and
       Tobago</p>
-    <div class="container d-grid bg-image ps-sm-3 pe-sm-3 gap-3" id="time-cards">
-      <div class="timeline-card w-100">
+    <div class="container bg-image ps-sm-3 pe-sm-3 gap-3 mobile-card" id="time-cards">
+      <div class="timeline-card w-50 h-auto">
         <div class="card-body justify-content-center align-content-center">
           <h1 class="text-white  text-center">2019</h1>
           <p class="text-white text-center">AI Business Summit 2019 in Barbados</p>
         </div>
       </div>
-      <div class="timeline-card w-100">
+      <div class="timeline-card w-50 h-auto">
         <div class="card-body justify-content-center align-content-center">
           <h1 class="text-white  text-center">2017</h1>
           <p class="text-white text-center">AI Business Summit 2019 in Trinidad and Tobago</p>
