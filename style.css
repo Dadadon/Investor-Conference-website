@@ -170,11 +170,8 @@ ul {
 }
 
 .timeline-card {
-  /* background-image: url(src/pexels-matheus-bertelli-3321796.jpg); */
   background-image: url("src/pexels-matheus-bertelli-3321796.jpg"), linear-gradient(#ec5242, #ec5242);
   background-blend-mode: overlay;
-  /* background-image: linear-gradient(#ec5242, #ec5242); */
-  /* background-blend-mode: overlay; */
 }
 
 .overlay {
