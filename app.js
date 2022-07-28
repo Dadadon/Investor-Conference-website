@@ -98,11 +98,6 @@ programCards.forEach((el) => {
   grab('pro-cards').appendChild(pro);
 });
 
-featuredCards.forEach((el) => {
-  if (featuredCards.indexOf(el) <= 1) {
-  }
-});
-
 function openNav() {
   document.getElementById('myNav').style.width = '100%';
   document.body.style.overflow = 'hidden';
@@ -165,12 +160,17 @@ function renderDesktopCards() {
   });
 }
 
-function renderCards(fcards) {
+function renderAllCards(fcards) {
+  grab("feat-cards").innerHTML = "";
   fcards.forEach(renderOneCard);
+  document.getElementById("f-btn").innerHTML = `<span
+        class='text-end'>See Less</span><i class='align-self-center text-start fas fa-angle-up secondary'></i>`;
+  document.getElementById("f-btn").addEventListener("click", () => {
+    initialRender(featuredCards);
+  });
 }
 
 // renderCards(featuredCards);
-
 function initialRender(fcards) {
   grab('feat-cards').innerHTML = '';
   renderDesktopCards();
@@ -185,16 +185,5 @@ function initialRender(fcards) {
 
 initialRender(featuredCards);
 
-function renderAllCards(fcards) {
-  grab('feat-cards').innerHTML = '';
-  fcards.forEach(renderOneCard);
-  document.getElementById(
-    'f-btn'
-  ).innerHTML = `<span
-        class='text-end'>See Less</span><i class='align-self-center text-start fas fa-angle-up secondary'></i>`;
-  document.getElementById('f-btn').addEventListener('click', () => {
-    initialRender(featuredCards);
-  });
-}
 
 
