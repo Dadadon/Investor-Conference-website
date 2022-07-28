@@ -26,7 +26,7 @@ h1 {
   display: none;
 }
 
-.foot{
+.foot {
   display: flex;
 }
 
@@ -84,7 +84,10 @@ h6 {
 }
 
 .program-card {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
   background-blend-mode: overlay;
 }
 
@@ -149,13 +152,19 @@ h6 {
 }
 
 .navbar-background {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
   background-blend-mode: overlay;
   z-index: 0;
 }
 
 .header-container {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
   background-blend-mode: overlay;
 }
 
@@ -227,7 +236,9 @@ ul {
   padding-top: 1rem;
 }
 
-.d-nav {display: none;}
+.d-nav {
+  display: none;
+}
 
 .f-cards {
   display: grid;
@@ -237,10 +248,10 @@ ul {
   display: none;
 }
 
-
-@media (min-width: 991px) { 
-
-  .desktop-only {display: none;}
+@media (min-width: 991px) {
+  .desktop-only {
+    display: none;
+  }
 
   .menu-items {
     display: block;
@@ -267,12 +278,12 @@ ul {
   .prog-cards {
     display: flex;
   }
-  
+
   .program-cardd {
     display: flex;
     flex-direction: column;
   }
-  
+
   .pro-button {
     background-color: transparent;
     text-decoration: underline;
@@ -286,7 +297,7 @@ ul {
     width: 90%;
   }
 
-   .mobile-only {
+  .mobile-only {
     display: none;
   }
 
@@ -320,7 +331,7 @@ ul {
 
   .head-btn {
     border: #ec5242;
-    border-style:solid;
+    border-style: solid;
     background-color: white;
   }
 
@@ -331,7 +342,7 @@ ul {
   }
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
   .xs-small {
     display: grid;
     place-items: center;
@@ -341,8 +352,8 @@ ul {
   .mobile-onlyxs {
     display: none;
   }
-  
+
   .foot {
     display: grid;
   }
- }
+}
