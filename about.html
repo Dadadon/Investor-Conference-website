@@ -31,44 +31,54 @@
         <a href="index.html" onclick="closeNav()">Home</a>
       </div>
     </div>
-    <nav class="nav-container navbar-background" id="nav-icon">
-      <nav class="navbar navbar-light">
+    <nav class="nav-container navbar-background p-0" id="nav-icon">
+      <nav class="navbar navbar-light mobile-only">
         <button class="navbar-toggler col-2" onclick="openNav()">
           <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
-      <nav class="menu-items">
-      <a href="#ai-logo" onclick="closeNav()">Angel Investor Logo</a>
-      <a href="#time-cards" onclick="closeNav()">Timeline</a>
-      <a href="#partner" onclick="closeNav()">Partner</a>
-      <a href="index.html" onclick="closeNav()">Home</a>
-      </nav>
+      <div class="w-100 d-nav align-items-center">
+        <img class=" col-3 mx-auto logo menu-items align-self-center pb-2" src="src/ailogo.png" alt="">
+        <nav class="menu-items col-8 align-content-center m-0 h-100 me-5">
+          <a href="#ai-logo" onclick="closeNav()">Angel Investor Logo</a>
+          <a href="#time-cards" onclick="closeNav()">Timeline</a>
+          <a href="#partner" onclick="closeNav()">Partner</a>
+          <a href="index.html" onclick="closeNav()">Home</a>
+          <button class="h-50 align-self-center secondary head-btn">AI
+            Campaign</button>
+        </nav>
+      </div>
+
     </nav>
   </header>
   <!-- Header -->
-  <section class="header-container p-2">
+  <section class="header-container p-2 p-md-5">
     <h3 class="text-center">"Hello! Entrepreneurs"</h3>
-      <h1 class="text-center pb-3">Angel Investor Business Summit 2022</h1>
-      <p class="text-center bg-white card p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore quas temporibus! Maiores tempora
-        ullam aperiam cupiditate excepturi eligendi ducimus iusto? Qui aliquam illum velit veritatis est eos
-        corporis nisi.
-      </p>
-      <p class="text-center mb-0 ps-4 pe-4"><small>Please contact us via Email for any further questions about AI Business Summit 2022</small></p>
-      <p class="text-decoration-underline text-center fw-bold">aisummit2022@aiinvestor,com</p>
+    <h1 class="text-center pb-3">Angel Investor Business Summit 2022</h1>
+    <p class="text-center bg-white card p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore quas
+      temporibus! Maiores tempora
+      ullam aperiam cupiditate excepturi eligendi ducimus iusto? Qui aliquam illum velit veritatis est eos
+      corporis nisi.
+    </p>
+    <p class="text-center mb-0 ps-4 pe-4"><small>Please contact us via Email for any further questions about AI Business
+        Summit 2022</small></p>
+    <p class="text-decoration-underline text-center fw-bold">aisummit2022@aiinvestor,com</p>
   </section>
   <!-- logo section -->
-  <section class="logo-container bg-white p-5" id="ai-logo" >
+  <section class="logo-container bg-white p-5" id="ai-logo">
     <h3 class="featured-header text-center">Angel Investor Business Summit 2022 Logo</h3>
     <p class="divider text-center">_________</p>
-    <p class="mb-5 text-center">The logo of Angel Investor Business Summit 2022 was decided through the logo competition that was held on May 5th
+    <p class="mb-5 text-center">The logo of Angel Investor Business Summit 2022 was decided through the logo competition
+      that was held on May 5th
     </p>
-    <img class="col w-75 h-75 mx-auto d-block card" src="src/ailogo.png" alt="">
+    <img class="col logo-img mx-auto d-block card" src="src/ailogo.png" alt="">
   </section>
   <!-- Timeline -->
   <section class="timeline-container bg-white pb-5">
     <h3 class="featured-header text-center">See the past AI Business Summits</h3>
-    <p class="text-center ps-5 pe-5">Take a look at the last two summits that took place in Barbados and Trinidad and Tobago</p>
-    <div class="container d-grid bg-image p-0 gap-3" id="time-cards">
+    <p class="text-center ps-5 pe-5">Take a look at the last two summits that took place in Barbados and Trinidad and
+      Tobago</p>
+    <div class="container d-grid bg-image ps-sm-3 pe-sm-3 gap-3" id="time-cards">
       <div class="timeline-card w-100">
         <div class="card-body justify-content-center align-content-center">
           <h1 class="text-white  text-center">2019</h1>
@@ -96,8 +106,8 @@
     </div>
   </section>
   <!-- Footer -->
-  <section class=" m-0 d-flex justify-content-evenly bg-white align-items-center">
-    <div><img class="w-75 h-75" src="src/ailogo.png" alt=""></div>
+  <section class=" m-0 justify-content-evenly bg-white align-items-center foot">
+    <div><img class="logo-img-foot" src="src/ailogo.png" alt=""></div>
     <div>
       <p class="mb-0"><small>Angel Investor Business Summit Jamaica</small></p>
       <p class="mb-0"><small>Some Rights Reserved</small></p>
