@@ -1,6 +1,6 @@
 # Investor-Conference-website
 
-> This is my HTML/CSS & JavaScript capstone project
+> This is my HTML/CSS/JavaScript capstone project for an angel investor conference where business owners can showcase their ideas in hopes of securing funding to help them achieve their goals.
 Additional description about the project and its features.
 
 ## Live Preview Link
