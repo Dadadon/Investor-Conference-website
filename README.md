@@ -1,7 +1,8 @@
 # Investor-Conference-website
 
-> This is my HTML/CSS/JavaScript capstone project for an angel investor conference where business owners can showcase their ideas in hopes of securing funding to help them achieve their goals.
+> This is my HTML/CSS/JavaScript capstone project for an angel investor conference.
 Additional description about the project and its features.
+The website allows business owners can showcase their ideas in hopes of securing funding to help them achieve their goals.
 
 ## Live Preview Link
 https://dadadon.github.io/Investor-Conference-website/
